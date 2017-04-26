@@ -3,7 +3,15 @@
 
 // Settings
 // Tools
-
+$inuit-enable-btn--small : true;
+$inuit-enable-btn--large : true;
+$inuit-enable-btn--huge : true;
+$inuit-enable-btn--full : true;
+$inuit-enable-btn--primary : true;
+$inuit-enable-btn--tertiary : true;
+$inuit-enable-btn--disabled : true;
+$inuit-enable-btn--bare : true;
+$inuit-enable-btn--icon : true;
 // Generic
 @import "px-normalize-design/_generic.normalize.scss";
 
@@ -12,6 +20,9 @@ $inuit-webfont-path: "/bower_components/px-typography-design/type";
 @import "px-typography-design/_base.typography.scss";
 @import "px-headings-design/_base.headings.scss";
 
+
+
+@import "px-buttons-design/_objects.buttons.scss";
 // Meta
 // Objects
 // Components

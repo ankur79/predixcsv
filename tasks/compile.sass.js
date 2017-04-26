@@ -39,6 +39,7 @@ module.exports = function(gulp, plugins) {
         .on('error', plugins.sass.logError))
       .pipe(autoprefixer())
       .pipe(cssmin())
+      //.pipe(gulp.dest('./public/inline'))
       .pipe(stylemod({
         // All files will be named 'styles.html'
         filename: function(file) {
